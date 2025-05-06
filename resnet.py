@@ -320,7 +320,7 @@ def main():
     # Initialize wandb only on the main process - no special conditions
     if local_rank == 0:
         try:
-            wandb.init(project="joai-competition-2025")
+            wandb.init(project="joai-competition-2025-verification")
         except Exception as e:
             print(f"Warning: Could not initialize wandb: {e}")
             print("Continuing without wandb logging...")

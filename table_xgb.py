@@ -55,7 +55,7 @@ NAME2LABEL = {"Mixture": 0, "NoGas": 1, "Perfume": 2, "Smoke": 3}
 def main(args):
     config = Config()
     wandb.init(
-        project="joai-competition-2025",
+        project="joai-competition-2025-verification",
         job_type="train",
         config={**config.exp.__dict__, "model": "XGBClassifier"}
     )

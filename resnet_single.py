@@ -129,7 +129,7 @@ def main():
     # Device
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # WandB
-    wandb.init(project="joai-competition-2025", config=vars(cfg.exp))
+    wandb.init(project="joai-competition-2025-verification", config=vars(cfg.exp))
     # Prepare folds
     skf = StratifiedKFold(cfg.exp.num_folds, shuffle=True, random_state=cfg.exp.seed)
     for fold, (tr_idx, val_idx) in enumerate(skf.split(train_df, train_df[TARGET_COL])):
