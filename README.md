@@ -1,3 +1,5 @@
+<!-- https://wandb.ai/gorira/joai-competition-2025/runs/60k9k87l/overview と https://wandb.ai/gorira/joai-competition-2025/runs/rgbdc2gn/overview を利用した。もし必要であれば運営に共有 -->
+
 ## Setup and Usage
 
 1. 環境構築: `uv` で環境構築を行い、`uv sync` を実行すること
