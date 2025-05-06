@@ -11,7 +11,6 @@ dependencies = [
     "pathlib>=1.0.1",
     "scikit-learn>=1.6.1",
     "timm>=1.0.15",
-    "torch>=2.7.0",
     "transformers>=4.51.3",
     "typing>=3.10.0.0",
     "wandb>=0.19.10",
